@@ -92,7 +92,7 @@ def task_four():
 
         def deposit(self, amount):
             if amount <= 0:
-                print("Помилка: сума поповнення має бути більшою за 0")
+                print("Сума поповнення має бути більшою за 0")
                 return False
             self.balance += amount
             print(f"Рахунок поповнено на {amount}")
